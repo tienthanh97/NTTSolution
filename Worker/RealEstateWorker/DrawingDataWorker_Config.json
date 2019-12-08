@@ -1,0 +1,99 @@
+[
+  {
+    "StepId": "4e4f748b-6da1-4cb8-9dc3-03605d600187",
+    "ParentId": "00000000-0000-0000-0000-000000000000",
+    "ExecuteConfig": {
+      "UrlBuildType": "ReplaceQuantity",
+      "ToPage": 4,
+      "FromPage": 1,
+      "PagingPattern": "@page",
+      "Pattern": "https://batdongsan.com.vn/nha-dat-cho-thue/p@page",
+      "ScrapeType": "Paging",
+      "Interval": 0,
+      "Description": null
+    },
+    "StepType": "Paging",
+    "StepName": "Get Document"
+  },
+  {
+    "StepId": "887de9bf-ff1a-4c43-a80e-805756eb0fa7",
+    "ParentId": "4e4f748b-6da1-4cb8-9dc3-03605d600187",
+    "ExecuteConfig": {
+      "CanNavigateByDoc": true,
+      "HeaderConfigs": {
+        "Cookie": "SERVERID=H; __cfduid=d3de39fbce46c6e4f0207c7ff79bc99ad1544108336; _ga=GA1.3.1314493246.1544108340; _gid=GA1.3.1671812483.1544108340; scs=%7B%22t%22%3A1%7D; sidtb=IAY8ZHzn8vHgNlf242x2X1kELl5edvy4; usidtb=iXDzGkacE9GZchJo09f0H5A3coyzQcXY; ASP.NET_SessionId=admsrwfwy4hk2d14yh4jovgw; __asc=28ff267516784077712e8aca640; __auc=28ff267516784077712e8aca640; ins-mig-done=1; _fbp=fb.2.1544108341321.1813261443; spUID=15441083412080d057358b4.6898a6cc; USER_SEARCH_PRODUCT_CONTEXT=49%7C326%7CSG%7C66%7C8898%7C2656%7C1883%2C18752252; insdrSV=4; current-currency=VND",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+      },
+      "Pattern": null,
+      "ScrapeType": "WebUrl",
+      "Interval": 1000,
+      "Description": "navigateToPageLink"
+    },
+    "StepType": "ProcessStep",
+    "StepName": "Navigate To Page Link"
+  },
+  {
+    "StepId": "f7be1278-5656-499b-91d0-8460fffb4ddb",
+    "ParentId": "887de9bf-ff1a-4c43-a80e-805756eb0fa7",
+    "ExecuteConfig": {
+      "Pattern": "//div[@class='Main']/div[contains(@class, 'search-productItem')]",
+      "ScrapeType": "HTMLDoc",
+      "Interval": 0,
+      "Description": null
+    },
+    "StepType": "ProcessStep",
+    "StepName": "Get Container"
+  },
+  {
+    "StepId": "dc875801-f53a-4268-b9e3-6c13ce6b3d3e",
+    "ParentId": "f7be1278-5656-499b-91d0-8460fffb4ddb",
+    "ExecuteConfig": {
+      "HtmlAttribute": "href",
+      "EnclosePrevious": "https://batdongsan.com.vn",
+      "Pattern": "//div[@class='p-title']/h3[1]/a",
+      "ScrapeType": "HTMLAttribute",
+      "Interval": 0,
+      "Description": null
+    },
+    "StepType": "ProcessStep",
+    "StepName": "extract Product Link"
+  },
+  {
+    "StepId": "95704ce8-147b-42e2-8b6c-e561b6ee975a",
+    "ParentId": "dc875801-f53a-4268-b9e3-6c13ce6b3d3e",
+    "ExecuteConfig": {
+      "CanNavigateByDoc": true,
+      "HeaderConfigs": {
+        "Cookie": "SERVERID=H; __cfduid=d3de39fbce46c6e4f0207c7ff79bc99ad1544108336; _ga=GA1.3.1314493246.1544108340; _gid=GA1.3.1671812483.1544108340; scs=%7B%22t%22%3A1%7D; sidtb=IAY8ZHzn8vHgNlf242x2X1kELl5edvy4; usidtb=iXDzGkacE9GZchJo09f0H5A3coyzQcXY; ASP.NET_SessionId=admsrwfwy4hk2d14yh4jovgw; __asc=28ff267516784077712e8aca640; __auc=28ff267516784077712e8aca640; ins-mig-done=1; _fbp=fb.2.1544108341321.1813261443; spUID=15441083412080d057358b4.6898a6cc; USER_SEARCH_PRODUCT_CONTEXT=49%7C326%7CSG%7C66%7C8898%7C2656%7C1883%2C18752252; insdrSV=4; current-currency=VND",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+      },
+      "Pattern": null,
+      "ScrapeType": "WebUrl",
+      "Interval": 1000,
+      "Description": "navigateToProductLink"
+    },
+    "StepType": "ProcessStep",
+    "StepName": "navigate To Product Link"
+  },
+  {
+    "DataName": "DrawingDataModel",
+    "StepId": "8f074c5d-10de-4df2-bd7d-30ed866e079c",
+    "ParentId": "95704ce8-147b-42e2-8b6c-e561b6ee975a",
+    "ExecuteConfig": null,
+    "StepType": "Storage",
+    "StepName": "build Customer Data"
+  },
+  {
+    "AttributeName": "Data",
+    "StepId": "6b319fa6-0a21-4a5a-a2ea-85c602996bf4",
+    "ParentId": "8f074c5d-10de-4df2-bd7d-30ed866e079c",
+    "ExecuteConfig": {
+      "Pattern": "//div[@class='div-table-cell table2']/div[@class='table-detail']/div[@id='divCustomerInfo']",
+      "ScrapeType": "HTMLDoc",
+      "Interval": 0,
+      "Description": null
+    },
+    "StepType": "DataExtraction",
+    "StepName": "Get Div Info"
+  }
+]
