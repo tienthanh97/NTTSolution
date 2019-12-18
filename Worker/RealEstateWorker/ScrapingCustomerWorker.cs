@@ -42,7 +42,7 @@ namespace RealEstateWorker
                     if (data != null && data.Any())
                     {
                         var scrapingengine = new ScrapingEngine();
-                        var configs = scrapingengine.GetScrapingConfigByFile("ScrapingCustomerWorkerr_Config.json");
+                        var configs = scrapingengine.GetScrapingConfigByFile("ScrapingCustomerWorker_Config.json");
                         var config = configs.First();
                         var dependData = data.Select(x => x.Data).ToList();
                         config.SetDepentData(dependData);
