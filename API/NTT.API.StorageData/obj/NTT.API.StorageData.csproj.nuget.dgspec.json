@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj": {}
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj": {}
   },
   "projects": {
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj",
         "projectName": "NTT.API.StorageData",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\API\\NTT.API.StorageData\\NTT.API.StorageData.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\API\\NTT.API.StorageData\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\API\\NTT.API.StorageData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,20 +30,20 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj"
               },
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj"
               },
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj"
               },
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj"
               },
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj"
               }
             }
           }
@@ -92,6 +92,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,18 +110,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj",
         "projectName": "NTT.Data.EntityModel",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -162,23 +172,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj",
         "projectName": "NTT.Data.NTTDBContext",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\NTT.Data.NTTDBContext.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.NTTDBContext\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.NTTDBContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -197,8 +213,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj"
               }
             }
           }
@@ -237,23 +253,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj",
         "projectName": "NTT.Data",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -272,8 +294,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data.EntityModel\\NTT.Data.EntityModel.csproj"
               }
             }
           }
@@ -308,23 +330,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj",
         "projectName": "NTT.Model.ScrapingData",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -363,23 +391,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj",
         "projectName": "NTT.Contract.ScrapingData",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -398,8 +432,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\Models\\NTT.Model.ScrapingData\\NTT.Model.ScrapingData.csproj"
               }
             }
           }
@@ -422,23 +456,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj": {
+    "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj",
         "projectName": "NTT.Business.ScrapingData",
-        "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj",
+        "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\NTT.Business.ScrapingData.csproj",
         "packagesPath": "C:\\Users\\nguyentienthanh\\.nuget\\packages\\",
-        "outputPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\obj\\",
+        "outputPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.ScrapingData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -457,11 +497,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Data\\NTT.Data\\NTT.Data.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Data\\NTT.Data\\NTT.Data.csproj"
               },
-              "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
-                "projectPath": "D:\\RESEARCH\\MAINSOURCE\\NTTNetCore3\\NTT.Solution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj"
+              "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj": {
+                "projectPath": "D:\\WorkPlace\\Project\\MyNTTSolution\\NTTSolutionV1\\NTTSolution\\Modules\\ScrapingData\\NTT.Business.Contracts\\NTT.Contract.ScrapingData.csproj"
               }
             }
           }
@@ -490,12 +530,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

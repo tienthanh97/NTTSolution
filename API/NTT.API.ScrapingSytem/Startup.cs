@@ -1,15 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NTT.API.StorageData.Extentions;
-using NTT.Business.ScrapingData;
-using NTT.Contract.ScrapingData;
+using Microsoft.Extensions.Logging;
+using NTT.Business.ScrapingSystem;
+using NTT.Contract.ScrapingSystem;
 using NTT.Data.NTTDBContext.NTTContexts;
 using NTT.Data.Repositories;
-namespace NTT.API.StorageData
+
+namespace NTT.API.ScrapingSytem
 {
     public class Startup
     {
@@ -23,7 +30,7 @@ namespace NTT.API.StorageData
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<IISServerOptions>(options => { options.AutomaticAuthentication = false; }); //for deploy purpose only
+           // services.Configure<IISServerOptions>(options => { options.AutomaticAuthentication = false; }); // For deploy purpose only
             services.AddControllers();
             // config for Cors Policy
             services.AddCors(options =>
@@ -34,11 +41,11 @@ namespace NTT.API.StorageData
                     .AllowAnyHeader()
                     .AllowCredentials());
             });
-          
             services.AddSingleton(Configuration);
-            services.AddDbContext<TrackingNpgDBContext>(opts => opts.UseNpgsql(Configuration["ConnectionStrings:DefaultConnection"]));
-            services.AddScoped<DbContext, TrackingNpgDBContext>();
-            services.ConfigureApplicationServices(Configuration);
+            services.AddDbContext<ScrapingSystemDbContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddScoped<DbContext, ScrapingSystemDbContext>();
+            services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
+            services.AddScoped<IScrapingConfigBusiness, ScrapingConfigBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,8 +57,11 @@ namespace NTT.API.StorageData
             }
 
             app.UseHttpsRedirection();
+
             app.UseRouting();
+
             app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
